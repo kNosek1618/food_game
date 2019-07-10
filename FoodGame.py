@@ -3,8 +3,8 @@ from random import choice
 food = choice(['apple','grape', 'bacon', 'steak', 'worm', 'dirt'])
 
 if food == "grape" or food == "apple":
-    print("fruit")
+    print("The random choice is "+ food +" and this is fruit.")
 if food == "bacon" or food == "steak":
-    print("meat")
+    print("The random choice is "+ food +" and this is meat.")
 if food == "dirt" or food == "worm":
-    print("yuck")
+    print("The random choice is "+ food +" and this is yuck.")
